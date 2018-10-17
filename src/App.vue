@@ -4,7 +4,7 @@
       <div class="col">
         <nav class="nav">
           <router-link to="/" class="nav-link">Index</router-link>
-          <router-link to="/create" class="nav-link">Create</router-link>
+          <router-link :to="{name: 'create'}" class="nav-link">Create</router-link>
         </nav>
       </div>
     </div>    

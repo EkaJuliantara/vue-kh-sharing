@@ -27,7 +27,7 @@
 		}),
 		methods: {
 			...mapActions({
-				storePost: 'post/store'
+				storePost: 'post/store',
 			}),
 			storeHandler() {
 				this.storePost(this.post)

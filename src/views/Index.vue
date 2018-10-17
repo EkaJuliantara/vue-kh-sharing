@@ -17,3 +17,9 @@
 		}
 	}
 </script>
+
+<style scope lang="scss">
+	.index {
+		background: #f2f2f2;
+	}
+</style>
